@@ -1,0 +1,75 @@
+/* font file */
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* other common classes */
+body {
+  margin: 0;
+}
+
+/* common classes for buttons */
+.btn-primary {
+  padding: 12px 36px;
+  background-color: #4E47FF;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+}
+
+/* common classes for colors */
+.primary-color{
+  color: #4E47FF;
+}
+.section-heading-color-primary {
+  color: #252432;
+}
+.section-heading-color-secondary {
+  color: black;
+}
+.text-color-primary {
+  color: rgba(0, 0, 0, 0.50);
+}
+.text-color-secondary {
+  color: rgba(37, 36, 50, 0.50);
+}
+
+/* header style */
+header {
+  width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  margin: 50px 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+.logo {
+  font-size: 34px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* hero section style */
+.hero {}
