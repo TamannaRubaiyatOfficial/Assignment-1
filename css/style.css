@@ -33,6 +33,11 @@ main {
   font-weight: bold;
   text-transform: capitalize;
   color: white;
+  cursor: pointer;
+  transition: 0.6s all ease;
+}
+.btn-primary:hover {
+  transform: scale(1.05);
 }
 
 /* common classes for colors */
@@ -92,7 +97,7 @@ ul {
 }
 .hero-text-container {
   margin: 0 auto;
-  width: 905px;
+  width: 60%;
   text-align: center;
 }
 .hero-heading {
@@ -235,5 +240,86 @@ table {
   font-weight: 400;
   color: rgba(179, 179, 179, 1);
   line-height: 22px;
+  text-transform: capitalize;
+}
+
+/* focus section style */
+.focus {
+  padding: 70px 150px;
+  background-color: white;
+  border-radius: 14px;
+  text-align: center;
+}
+.focus-heading {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+.focus-text {
+  margin: 20px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.50);;
+}
+.focus-img-container {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 48px;
+}
+.focus-img-container img {
+  width: 100%;
+  border-radius: 48px;
+}
+
+/* contact section style */
+.contact {
+  padding: 165px 0 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-heading {
+  margin: 0;
+  font-size: 97px;
+  font-weight: bold;
+  line-height: 116px;
+  text-transform: capitalize;
+  color: black;
+}
+.contact-form-container {
+  width: 48%;
+}
+.contact-form label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  color: black;
+  text-transform: capitalize;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  margin: 10px 0 20px;
+  padding: 20px 32px;
+  border: 1px solid #D6DDED;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: 0.5s all ease;
+}
+.contact-form input:hover, .contact-form textarea:hover {
+  border: 1px solid #4E47FF;
+}
+.contact-form input:focus, .contact-form textarea:focus {
+  border: 1px solid #4E47FF;
+  outline: none;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.5);
   text-transform: capitalize;
 }
