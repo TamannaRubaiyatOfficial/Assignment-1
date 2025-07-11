@@ -179,7 +179,7 @@ table {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  align-items: center;
+  align-items: stretch;
 }
 .testimonial-card {
   margin-top: 50px;
@@ -375,4 +375,8 @@ footer {
   color: rgba(137, 135, 161, 1);
   text-transform: capitalize;
   text-decoration: none;
+  transition: 0.5s all ease;
+}
+.footer-menu ul a:hover {
+  color: #4E47FF;
 }
